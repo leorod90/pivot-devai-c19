@@ -12,3 +12,13 @@ i am learning how to code html & css i need to to help me on my journey, dont do
 - boiler plate (focus on the body)
 - anchor tag, href
 - image tag, src
+
+### HW
+- You need to create recipes page (dont worry about the style)
+- tackle each problem one at a time
+- recipe need a heading (name of dish)
+- an intro paragraph
+- list of ingredients (ul) - at least 5
+- steps (ol) - at lest 5
+- an image of the dish
+- a link to the wikipedia
