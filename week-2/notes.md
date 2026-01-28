@@ -22,3 +22,5 @@ i am learning how to code html & css i need to to help me on my journey, dont do
 - steps (ol) - at lest 5
 - an image of the dish
 - a link to the wikipedia
+
+The easiest way to submit the HW is to use onecompiler and send me a picture ibn slack (DM)
