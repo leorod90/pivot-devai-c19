@@ -23,4 +23,15 @@ i am learning how to code html & css i need to to help me on my journey, dont do
 - an image of the dish
 - a link to the wikipedia
 
-The easiest way to submit the HW is to use onecompiler and send me a picture ibn slack (DM)
+The easiest way to submit the HW is to use onecompiler and send me a picture in slack (DM)
+
+## 1/29/26
+
+### chatgpt prompt
+- how can i add "x"
+- can you explain this line of code to me?
+
+### key CSS words
+- selector
+- property
+- value
