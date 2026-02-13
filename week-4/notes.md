@@ -34,3 +34,6 @@ I am using FLEX-BOX, how can i move everything to the right?
 I am having a hard time understanding flex-box, can you help.
 
 ### HW
+- Spacing
+- Flexbox
+- All images should be in one div and use flex-box
