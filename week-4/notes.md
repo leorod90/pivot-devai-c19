@@ -15,8 +15,22 @@ Visually
 
 ## 2/10/26
 ### Key Concepts
-Block vs Inline Elements
+display: Block (Up and Down) vs Inline (Left to Right) Elements
 Focus Skills
 Understanding how elements stack vs. sit side-by-side
 Recognizing common block elements (div, p, h1–h6)
-Recognizing common inline elements (span, a, strong, em)
+
+## 2/12/26
+### Key Concepts
+DOCTYPE
+Class
+Flex-Box
+display: Flex (let's you move things inside)
+Justify Content
+
+### ChatGPT Prompts
+How can I use multiple classes on one tag?
+I am using FLEX-BOX, how can i move everything to the right?
+I am having a hard time understanding flex-box, can you help.
+
+### HW
