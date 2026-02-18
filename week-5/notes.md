@@ -16,9 +16,14 @@ js: Variable
 ## 2/17/26
 
 ### ChatGPT Prompts
+"what is wrong with this line of code, can you explain in simple terms?"
+"what is a function?"
 
 ### Key Concepts
-js: Data type (boolean)
+DRY (dont repeat yourself)
+js: functions
+js: parameters
+js: code goes from top to bottom
 
 ## 2/19/26
 
