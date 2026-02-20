@@ -1,3 +1,21 @@
 body {
   background-color: gray;
 }
+
+header {
+  background-color: beige;
+  color: blue;
+}
+
+footer {
+  background-color: navy;
+  color: beige;
+  padding: 2px;
+  text-align: center;
+}
+
+.input-div {
+  padding: 4px;
+  margin: 4px;
+  background-color: white;
+}

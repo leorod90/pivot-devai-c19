@@ -5,8 +5,10 @@
 "I am learning javascript can you explain ___ in simple terms"
 
 ### Key Concepts
-HTMl boilerplate
+HTML boilerplate
 Title
+head: contains all info
+body: contains all code
 First file called index
 href tells the computer the name of the file/address
 has inspect: Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, and Brave
@@ -30,5 +32,20 @@ js: code goes from top to bottom
 ### ChatGPT Prompts
 
 ### Key Concepts
+semantic tags (header, footer, section)
+inputs (text)
+labels
+buttons
+placeholders
 
 ### HW
+
+##### HTML
+-Use an HTML boilerplate
+-<!DOCTYPE html> is included
+-make sure theres <head> and <body>
+-
+
+#### CSS
+
+#### JS

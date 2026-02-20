@@ -47,3 +47,29 @@ favColor = "blue";
 console.log(favColor);
 favColor = "green";
 console.log(favColor);
+
+// feb 19
+let score = 10;
+const color = "red";
+console.log(score);
+score = 20;
+console.log(score);
+console.log(color);
+
+
+const myName = "leo";
+
+function submitName() {
+  alert(myName);
+}
+
+function submitEmail() {
+  const myEmail = myName + ".com";
+  alert(myEmail);
+}
+
+function favFood(name, food) {
+  console.log(name + "s favorite food is " + food + ".");
+}
+
+favFood("leo", "pizza");
