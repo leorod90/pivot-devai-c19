@@ -37,6 +37,7 @@ inputs (text)
 labels
 buttons
 placeholders
+link css and js file
 
 ### HW
 
