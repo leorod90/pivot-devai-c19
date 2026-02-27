@@ -2,11 +2,12 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="index.css">
 
 </head>
 
 <body>
-  <header>
+  <!-- <header>
     <h1>This cool website</h1>
     <p>Welcome to my page</p>
   </header>
@@ -30,7 +31,35 @@
 
   <footer>
     <p>Leo 2026</p>
-  </footer>
+  </footer> -->
+
+  <section>
+    <label class="name-label">Name:</label>
+    <input id="name-input" type="text" placeholder="enter name" />
+    <br />
+    <label class="name-label">Email:</label>
+    <input id="email-input" type="text" placeholder="enter email" />
+    <br />
+    <button onclick="loginHandler()">Login</button>
+  </section>
+
+  <section>
+    <p id="change-text">Hello I am text</p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="changeColor()">Change Text Color</button>
+  </section>
+
+  <!-- FEB 26 -->
+  <section class="card">
+    <h4>Simple todo app</h4>
+
+    <label for="task">Task:</label>
+    <input type="text" id="task" name="task">
+    <button class="todo-btn" onclick="addTask()">Add Task</button>
+
+    <ul id="taskList">
+    </ul>
+  </section>
 
   <script src="script.js"></script>
 </body>
