@@ -1,93 +1,91 @@
+// 1) Age check (fixed message)
 let age = 17;
 
-if (age <= 17) {
+if (age >= 18) {
   alert("You are an adult");
 } else {
   alert("You are under 18");
 }
 
+// 2) Prompt password check (fixed missing brace)
 let testPassword = prompt("Enter your password.");
 const databasePassword = "abc123";
 
 if (testPassword === databasePassword) {
-  alert("welcome to you account")
+  alert("Welcome to your account");
 } else {
-  alert("Error: wrong information")
-// }
+  alert("Error: wrong information");
+}
+
+// 3) DOM login example (requires HTML elements with these ids)
 const USER_PASSWORD = "abc123";
 const passwordInput = document.getElementById("password-input");
 const errorMessage = document.getElementById("error");
 
 function loginHandler() {
+  // Guard in case IDs don't exist (prevents crash)
+  if (!passwordInput || !errorMessage) {
+    console.log("Missing #password-input or #error in HTML");
+    return;
+  }
+
   console.log(passwordInput.value);
+
   if (passwordInput.value === USER_PASSWORD) {
     errorMessage.textContent = "Welcome";
     errorMessage.style.color = "green";
-
-    errorMessage.classList.remove("success");
-    void errorMessage.offsetWidth; // forces reflow
-    errorMessage.classList.add("success");
   } else {
-    errorMessage.textContent = "Error: wrong message";
+    errorMessage.textContent = "Error: wrong information";
     errorMessage.style.color = "red";
   }
 }
 
-const food1 = "apple";
-const food2 = "pear";
-const food3 = "grapes";
-
-const food4 = "water"
-// array
+// 4) Fruits array work
 let fruits = ["apple", "pear", "grapes", "kiwi"];
 fruits[1] = "orange";
-
 fruits.push("banana");
 fruits[2] = "mango";
 
-let list = document.getElementById("fruitList");
+console.log("Length:", fruits.length);
+console.log(fruits[0], fruits[1], fruits[2], fruits[3]);
 
-for (let i = 0; i < fruits.length; i++) {
-  let li = document.createElement("li");
-  li.textContent = fruits[i];
-  list.appendChild(li);
-}
-console.log(fruits.length)
-console.log(fruits[0]);
-console.log(fruits[1]);
-console.log(fruits[2]);
-console.log(fruits[3]);
-
-for (let i = 0; i < fruits.length; i+= 2) {
-  console.log(fruits[i]);
+for (let i = 0; i < fruits.length; i += 2) {
+  console.log("Every other fruit:", fruits[i]);
 }
 
+// 5) Fruit list render + add fruit (single render path)
 const fruitInput = document.getElementById("fruitInput");
 const addBtn = document.getElementById("addBtn");
-const fruitList = document.getElementById("fruitList");
+const fruitListEl = document.getElementById("fruitList");
 
-addBtn.addEventListener("click", addFruit);
+if (addBtn) addBtn.addEventListener("click", addFruit);
+
+// Render once on page load (if list exists)
+renderList();
 
 function addFruit() {
-  const fruit = fruitInput.value;
+  if (!fruitInput) return;
+
+  const fruit = fruitInput.value.trim();
+  if (fruit === "") return;
 
   fruits.push(fruit);
-
   renderList();
-
   fruitInput.value = "";
 }
 
 function renderList() {
-  fruitList.innerHTML = "";
+  if (!fruitListEl) return;
 
+  fruitListEl.innerHTML = "";
   for (let i = 0; i < fruits.length; i++) {
     const li = document.createElement("li");
     li.textContent = fruits[i];
-    fruitList.appendChild(li);
+    fruitListEl.appendChild(li);
   }
 }
 
+// 6) Hello button function
 function sayHello() {
   alert("Hello");
 }
