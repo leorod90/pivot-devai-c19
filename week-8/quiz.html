@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Show</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+  <!-- PURPLE -->
+  <section>
+
+    <div class="quiz-results">
+      <h1>Online Quiz</h1>
+      <h2 id="score">Score: 0</h2>
+      <h4 id="result"></h4>
+    </div>
+    <!-- CARD 1-->
+    <div class="card">
+
+      <h3>Question 1</h3>
+      <p>What tag creates a heading?</p>
+
+      <div class="options">
+        <label for="q1-1">
+          <input id="q1-1" type="radio" name="q1" value="h1"> &lt;h1&gt;
+        </label><br>
+
+        <label>
+          <input type="radio" name="q1" value="p"> &lt;p&gt;
+        </label><br>
+
+        <label>
+          <input type="radio" name="q1" value="div"> &lt;div&gt;
+        </label>
+      </div>
+    </div>
+    <!-- CARD 2 -->
+    <div class="card">
+
+      <h3>Question 2</h3>
+      <p>What is 2 + 2?</p>
+
+      <div class="options">
+        <label for="q2-1">
+          <input id="q2-1" type="radio" name="q2" value="2"> 2
+        </label><br>
+
+        <label>
+          <input type="radio" name="q2" value="4"> 4
+        </label><br>
+
+        <label>
+          <input type="radio" name="q2" value="6"> 6
+        </label>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="card">
+
+      <h3>Question 3</h3>
+      <p>What color is an apple?</p>
+
+      <div class="options">
+        <label for="q3-1">
+          <input id="q3-1" type="radio" name="q3"> pink
+        </label><br>
+
+        <label>
+          <input type="radio" name="q3"> blue
+        </label><br>
+
+        <label>
+          <input type="radio" name="q3"> red
+        </label>
+      </div>
+    </div>
+    <!-- CARD 4 -->
+    <div class="card">
+
+      <h3>Question 4</h3>
+      <p>What is JS?</p>
+
+      <div class="options">
+        <label for="q4-1">
+          <input id="q4-1" type="radio" name="q4"> a food
+        </label><br>
+
+        <label>
+          <input type="radio" name="q4"> a coding language
+        </label><br>
+
+        <label>
+          <input type="radio" name="q4"> a car
+        </label>
+      </div>
+    </div>
+    <!-- CARD 5 -->
+    <div class="card">
+
+      <h3>Question 5</h3>
+      <p>What planet am i on?</p>
+
+      <div class="options">
+        <label for="q5-1">
+          <input id="q5-1" type="radio" name="q5"> Earth
+        </label><br>
+
+        <label>
+          <input type="radio" name="q5"> Saturn
+        </label><br>
+
+        <label>
+          <input type="radio" name="q5"> Jupiter
+        </label>
+      </div>
+    </div>
+    <!-- CARD 6 -->
+    <div class="card">
+
+      <h3>Question 6</h3>
+      <p>What is the best ice-cream flavor?</p>
+
+      <div class="options">
+        <label for="q6-1">
+          <input id="q6-1" type="radio" name="q6" value="vanilla"> Vanilla
+        </label><br>
+
+        <label>
+          <input type="radio" name="q6" value="chocolate"> Chocolate
+        </label><br>
+
+        <label>
+          <input type="radio" name="q6" value="mint"> Mint
+        </label>
+      </div>
+    </div>
+
+
+
+    <button onclick="submitQuiz()" class="submit-btn">Submit Quiz</button>
+  </section>
+  <script src="quiz.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+- 10 total questions
+- organize the HTML with comments
+- do one at a time
+- make sure total var matches HTML
+- all radio buttons work
+- submit and proper score
+- i would rather you do 4 working questions than 10 broken ones\
+- THIS WILL BE REVIEWED!!!
