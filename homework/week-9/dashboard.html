@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+  <!-- CARD -->
+  <div class="card">
+    <h1>Student Hub</h1>
+    <p>Welcome [NAME]</p>
+
+    <!-- TASK LIST -->
+    <div class="todo-app">
+      <h2>Task List</h2>
+
+      <div class="input-row">
+        <input type="text" id="taskInput" placeholder="Enter a task">
+        <button onclick="addTask()">Add Task</button>
+      </div>
+
+      <!-- QUIZ PART -->
+      <div class="quiz-app">
+        <h2 id="question">What is 2 + 2?</h2>
+
+        <input type="text" id="answerInput" placeholder="Type your answer">
+        <button onclick="checkAnswer()">Submit</button>
+
+        <p id="result"></p>
+        <p>Score: <span id="score">0</span></p>
+      </div>
+
+
+      <hr>
+      <!-- LOGOUT -->
+      <button onclick="logout()">Logout</button>
+
+      <ul id="taskList"></ul>
+    </div>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+
+  display: flex;
+  justify-content: center; /* keep horizontal centering */
+  align-items: flex-start; /* move to top */
+  height: 100vh;
+  padding-top: 30px; /* adds space from top */
+}
+
+/* CARD STYLE */
+/* Card styling */
+.card {
+  background: white;
+  padding: 30px;
+  width: 300px;
+  border-radius: 15px;
+  /* rounded edges */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  /* shadow */
+  /* text-align: center; */
+}
+
+/* Title */
+.card h1 {
+  margin: 5px 0;
+}
+
+/* Subtitle */
+.card p {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+/* Inputs */
+.card input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Button */
+.card button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #007BFF;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+.card button:hover {
+  background: #0056b3; 
+}

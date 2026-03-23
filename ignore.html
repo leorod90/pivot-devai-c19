@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile Page</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <style>
+      body {
+        background-color: #ccc;
+      }
+      .container {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+      header {
+        padding: 20px;
+        background: #ccc9ff;
+        background: linear-gradient(
+          90deg,
+          rgba(204, 201, 255, 1) 0%,
+          rgba(9, 9, 121, 1) 35%,
+          rgba(0, 212, 255, 1) 100%
+        );
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+      }
+
+      main {
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 10px 0;
+        padding: 20px;
+      }
+
+      img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+      }
+      .footer {
+        background-color: navy;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Leo</h1>
+        <p>leo@yahoo.com</p>
+        <p>Web Developer & Teacher</p>
+        <img
+          src="https://pics.craiyon.com/2023-11-15/WBRT_6UnTMuOuKrF483_Kg.webp"
+        />
+      </header>
+
+      <main>
+        <section id="about">
+          <h2>About Me</h2>
+          <p>
+            I’m a front-end web developer who loves to design and creates apps.
+            I also enjoy teaching others how to code!
+          </p>
+        </section>
+
+        <section id="interests">
+          <h2>My Interests</h2>
+          <ul class="interest-list">
+            <li>Web Design</li>
+            <li>Music</li>
+            <li>Photography</li>
+            <li>Travel</li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Leo 2025</p>
+      </footer>
+    </div>
+  </body>
+</html>

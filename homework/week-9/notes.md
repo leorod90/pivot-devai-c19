@@ -1,0 +1,5 @@
+- makes sure the persons login name shows up in the dashboard, use query params
+- create a variable called "DATA_PASSWORD" and make it equal "test123"
+- use "DATA_PASSWORD" to compare to the input to login
+- add a line between the task part and quiz part (you can use hr tag or border style)
+- style should look as close as possible as my image (march-19.p1.png && march-19.p2.png)

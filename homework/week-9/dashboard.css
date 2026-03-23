@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+
+  display: flex;
+  justify-content: center; /* keep horizontal centering */
+  align-items: flex-start; /* move to top */
+  height: 100vh;
+  padding-top: 30px; /* adds space from top */
+}
+
+/* ---- CARD STYLE ---- */
+/* Card styling */
+.card {
+  background: white;
+  padding: 30px;
+  width: 300px;
+  border-radius: 15px;
+  /* rounded edges */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  /* shadow */
+  /* text-align: center; */
+}
+
+/* Title */
+.card h1 {
+  margin: 5px 0;
+}
+
+/* Subtitle */
+.card p {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+/* Inputs */
+.card input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* ---- TASK STYLE ---- */
+.todo-app {
+  width: 300px;
+  margin: 50px auto;
+  font-family: Arial;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f1f1f1;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* completed task style */
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* ---- QUIZ SECTION ---- */
+.quiz-app {
+  width: 300px;
+  margin: 50px auto;
+  font-family: Arial;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+}
