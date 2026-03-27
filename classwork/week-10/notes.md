@@ -28,4 +28,4 @@
 - color picker
 - random number generator
 - [ask for simple app ideas]
-- make it look nice
+- make it look nice, make sure there is Javascript!!!
