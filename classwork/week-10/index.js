@@ -34,3 +34,4 @@ function logout() {
   localStorage.clear();
   document.getElementById("result").textContent = "Logged out";
 }
+

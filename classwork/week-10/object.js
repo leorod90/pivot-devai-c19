@@ -78,5 +78,3 @@ const profile = {
     console.log("Hello my name is " + this.name)
   }
 }
-
-console.log(profile.greet())
